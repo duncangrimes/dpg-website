@@ -1,10 +1,10 @@
-
 import * as React from 'react';
-import '../styles/styles.css';
 import {
     AppBar, Box, Button, Stack,
     Toolbar, Typography,
 } from "@mui/material";
+import './styles.css'
+
 export default function Navbar() {
     return (
             <AppBar className = "appBar" position = 'static' sx={{justifyContent: 'left', alignItems: 'left'}}>

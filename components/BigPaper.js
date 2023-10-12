@@ -1,5 +1,4 @@
-import {Paper, Typography} from "@mui/material";
-import TitleBox from "./TitleBox";
+import {Paper} from "@mui/material";
 
 export default function BigPaper({height , children}) {
     return (
