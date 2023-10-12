@@ -1,3 +1,17 @@
+import {Box, Paper, Stack, Typography} from "@mui/material";
+import '@fontsource/onest'
+import PageContent from "../components/PageContent";
+import BigPaper from "../components/BigPaper";
+
+
 export default function AboutMePage() {
-    return <h1>This is where about me page will go</h1>;
+    return (<PageContent height="100%" title='About Me'>
+       <BigPaper height="800px" title="About Me">
+           <Typography className="text" sx={{color:'primary.dark', fontFamily: 'onest'}}>
+               about me section
+           </Typography>
+       </BigPaper>
+        </PageContent>
+    );
+
 }

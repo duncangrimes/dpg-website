@@ -5,9 +5,9 @@ import {
     AppBar, Box, Button, Stack,
     Toolbar, Typography,
 } from "@mui/material";
-export default function Navbar(props) {
+export default function Navbar() {
     return (
-            <AppBar className = "appBar" position = 'static'>
+            <AppBar className = "appBar" position = 'static' sx={{justifyContent: 'left', alignItems: 'left'}}>
                 <Toolbar sx={{justifyContent: 'left' }}>
                     <Box color="inherit">
                     <Stack direction="row" spacing={5}>

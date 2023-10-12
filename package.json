@@ -12,8 +12,10 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@fontsource/jura": "^5.0.15",
+    "@fontsource/onest": "^5.0.1",
     "@mui/icons-material": "^5.14.11",
     "@mui/material": "^5.14.11",
+    "@react-pdf-viewer/core": "^3.12.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
