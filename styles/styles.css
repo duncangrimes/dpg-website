@@ -1,0 +1,10 @@
+.buttonText {
+    text-transform: none;
+    font-size: 24px;
+    color: #7290a1;
+}
+
+.appBar {
+    background-color: #101213;
+    color: #FFFFFF;
+}
