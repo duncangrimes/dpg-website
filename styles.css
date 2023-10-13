@@ -37,12 +37,12 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
     padding-left: 3vh;
     padding-right: 3vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
     margin: 5vh;
-    height: 10vh;
 }
 
 .title {
