@@ -1,6 +1,5 @@
 import PageContent from "../components/PageContent";
 import BigPaper from "../components/BigPaper";
-import '@fontsource/onest'
 
 export default function ResumePage() {
 

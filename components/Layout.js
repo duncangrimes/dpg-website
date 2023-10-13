@@ -2,7 +2,6 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import {Box} from "@mui/material";
 import {ThemeProvider} from "@mui/material/styles";
-import '@fontsource/jura';
 import theme from './theme.js';
 
 const Layout = ({children}) => {

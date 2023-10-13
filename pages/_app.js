@@ -1,10 +1,15 @@
 import Layout from "../components/Layout";
-import '../styles/styles.css';
+import { StyledEngineProvider } from '@mui/material/styles';
+import '../styles.css';
+import '@fontsource/jura';
+import '@fontsource/onest'
 
 function MyApp({ Component, pageProps }) {
-  return (<Layout>
+  return (<StyledEngineProvider injectFirst>
+      <Layout>
              <Component {...pageProps} />
         </Layout>
+      </StyledEngineProvider>
   )
 }
 

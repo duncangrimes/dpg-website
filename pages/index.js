@@ -1,7 +1,6 @@
 import {Box, Container, Typography} from "@mui/material";
 import BigPaper from "../components/BigPaper";
 import PageContent from "../components/PageContent";
-import '@fontsource/onest'
 
 export default function HomePage() {
     return <PageContent height="75vh" title='Welcome to my Website'>

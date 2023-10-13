@@ -2,8 +2,6 @@ import {AppBar, Box, Button, Container, Stack, SvgIcon, Toolbar, Typography} fro
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-import * as React from "react";
-
 export default function Footer() {
     return <AppBar className="appBar" position="static" sx={{height: '12vh',bottom: 0}}>
             <Toolbar sx={{justifyContent: 'center'}}>
