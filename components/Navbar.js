@@ -3,7 +3,6 @@ import {
     AppBar, Box, Button, Stack,
     Toolbar, Typography,
 } from "@mui/material";
-import './styles.css'
 
 export default function Navbar() {
     return (
