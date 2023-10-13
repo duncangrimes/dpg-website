@@ -39,12 +39,14 @@
     display: flex;
     padding-left: 3vh;
     padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     margin: 5vh;
     height: 10vh;
 }
 
 .title {
-    font-size: 8vh;
+    font-size: 6vh;
     font-weight: bold;
     font-family: Onest
 }
