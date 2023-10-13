@@ -14,35 +14,31 @@ const theme = createTheme({
         background: {
             default: '#7290a1',
         }
-    // },
-    // typography: {
-    //     fontFamily: 'Jura',
-    //     textAlign: 'center'
-    // },
-    // components: {
-    //     MuiAppBar: {
-    //         styleOverrides: {
-    //             root: {
-    //                 width: '100%',
-    //             }
-    //         }
-    //     },
-    //     MuiBox: {
-    //         styleOverrides: {
-    //             root: {
-    //                 justifyContent: 'center',
-    //                 alignItems: 'center',
-    //             }
-    //         }
-    //     },
-    //     MuiTypography: {
-    //         styleOverrides: {
-    //             root: {
-    //                 alignItems: 'center',
-    //                 display: 'flex'
-//                 }
-//             }
-//         },
+    },
+    components: {
+        MuiAppBar: {
+            styleOverrides: {
+                root: {
+                    width: '100%',
+                }
+            }
+        },
+        MuiBox: {
+            styleOverrides: {
+                root: {
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                }
+            }
+        },
+        MuiTypography: {
+            styleOverrides: {
+                root: {
+                    alignItems: 'center',
+                    display: 'flex'
+                }
+            }
+        },
     }
 }
 )

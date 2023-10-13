@@ -1,19 +1,28 @@
 
 .buttonText {
     text-transform: none;
-    font-size: 24px;
+    font-family: Jura;
+    font-size: 3vh;
+    color: #7290a1;
+}
+
+.contactInfo{
+    text-transform: none;
+    padding-left: 1vh;
+    font-family: Jura;
+    font-size: 2vh;
     color: #7290a1;
 }
 
 .fusionButtonText {
     text-transform: none;
-    font-size: 24px;
+    font-size: 3vh;
     color: #f5d787;
+    font-family: Jura;
 }
 
 .appBar {
     background-color: #101213;
-    color: #FFFFFF;
 }
 
 .bigPaper {
@@ -21,29 +30,27 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    width: 80%;
+    padding: 5vh;
 }
 
 .smallPaper{
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin: 40px;
-    height: 80px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin: 5vh;
+    height: 10vh;
 }
 
 .title {
-    font-size: 60px;
+    font-size: 8vh;
     font-weight: bold;
     font-family: Onest
 }
 
 .text {
-    font-size: 40px;
+    font-size: 3vh;
     text-align: center;
     font-family: Onest;
-    padding: 0px;
 }

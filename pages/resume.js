@@ -3,8 +3,8 @@ import BigPaper from "../components/BigPaper";
 
 export default function ResumePage() {
 
-    return <PageContent height={{xs: '600px', sm: '140vh'}} title={"Resume"}>
-        <BigPaper height={'120vh'}>
+    return <PageContent title={"Resume"}>
+        <BigPaper height={'120vh'} width={'70%'} color={'primary.light'}>
             <iframe
                 src="resume.pdf"
                 title="Resume"
