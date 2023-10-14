@@ -2,21 +2,25 @@
 .buttonText {
     text-transform: none;
     font-family: Jura;
-    font-size: 3vh;
     color: #7290a1;
+}
+
+.topButtonText {
+    text-transform: none;
+    font-family: Jura;
+    color: #7290a1;
+    font-Size: 3vh;
 }
 
 .contactInfo{
     text-transform: none;
     padding-left: 1vh;
     font-family: Jura;
-    font-size: 2vh;
     color: #7290a1;
 }
 
 .fusionButtonText {
     text-transform: none;
-    font-size: 3vh;
     color: #f5d787;
     font-family: Jura;
 }
@@ -48,6 +52,7 @@
 .title {
     font-size: 6vh;
     font-weight: bold;
+    text-align: center;
     font-family: Onest
 }
 

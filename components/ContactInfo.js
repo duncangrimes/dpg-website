@@ -3,7 +3,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
 export default function ContactInfo(){
-    return <Box sx={{flexDirection: 'column', paddingTop: '2vh'}}>
+    return <Box sx={{flexDirection: 'column', paddingTop: '2vh', paddingRight: {xs: 0, md: '7vh'}}}>
         <Box sx={{display: 'flex'}} justifyContent={"flex-start"}>
             <EmailIcon sx={{color: 'primary.main', alignSelf: 'center', height: '3vh'}}/>
             <Typography className={'contactInfo'} sx={{fontSize: '2vh'}}>duncan.p.grimes@vanderbilt.edu</Typography>

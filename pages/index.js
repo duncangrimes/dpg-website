@@ -1,9 +1,9 @@
 import {Box, Container, Typography} from "@mui/material";
 import BigPaper from "../components/BigPaper";
-import PageContent from "../components/PageContent";
+import HomePageContent from "../components/HomePageContent";
 
 export default function HomePage() {
-    return <PageContent height="70vh" title='Welcome to my Website'>
+    return <HomePageContent title='Welcome to my Website'>
         <BigPaper width='60%' color={'primary.dark'}>
             <Typography className={'text'} sx={{color: 'primary.light', fontFamily: 'onest'}} >
                 Hello, and thanks for stopping by my website! <br/>
@@ -28,5 +28,5 @@ export default function HomePage() {
             /Typography>
 
         </BigPaper>
-    </PageContent>
+    </HomePageContent>
 }

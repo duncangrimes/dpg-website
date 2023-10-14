@@ -15,10 +15,10 @@ export default function Navbar() {
                            <img src ="dpg-logo.png" alt= "fusion-logo" height={'30vh'} style={{paddingBottom: '.5vh'}}/>
                        </Button>
                           <Button className="buttonText" href="/about-me">
-                              <Typography className="buttonText">About</Typography>
+                              <Typography className="topButtonText">About</Typography>
                         </Button>
                         <Button className="buttonText" href="/resume">
-                            <Typography className="buttonText">Resume</Typography>
+                            <Typography className="topButtonText">Resume</Typography>
                         </Button>
                     </Stack>
                     </Box>
