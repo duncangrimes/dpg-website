@@ -34,7 +34,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 5vh;
+    padding-left: 9vh;
+    padding-right: 9vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
 }
 
 .smallPaper{
@@ -60,6 +64,11 @@
     font-size: 3vh;
     text-align: center;
     font-family: Onest;
+}
+
+.importantText {
+    color: #42738f;
+    font-weight: 900;
 }
 
 .aboutMeText {

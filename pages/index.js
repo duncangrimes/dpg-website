@@ -14,9 +14,7 @@ export default function HomePage() {
                 Please enjoy exploring this site and learning a bit about me, my projects and passions.
             <br/><br/>
                 - Duncan Paul Grimes
-            <
-            /Typography>
-
+            </Typography>
         </BigPaper>
     </HomePageContent>
 }
