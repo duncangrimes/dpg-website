@@ -6,7 +6,7 @@ I used components from the MaterialUI library and utilized the Next.js framework
 - Home
   - https://www.dpgwebsite.com/
 - About Me
-  - https://www.dpgwebsite.com/about-me/
+  - https://www.dpgwebsite.com/about-me
 - Resume
-  - https://www.dpgwebsite.com/resume/
+  - https://www.dpgwebsite.com/resume
 #### Please enjoy exploring this site and learning a bit about me, my projects and passions.
