@@ -3,7 +3,7 @@ import BigPaper from "../components/BigPaper";
 import HomePageContent from "../components/HomePageContent";
 
 export default function HomePage() {
-    return <HomePageContent title='Welcome to my Website'>
+    return <HomePageContent title='Welcome'>
         <BigPaper width='60%' color={'primary.dark'}>
             <Typography className={'text'} sx={{color: 'primary.light', fontFamily: 'onest', display: 'inline-block'}} >
                 Hello, and thanks for stopping by my website! <br/>
