@@ -77,6 +77,11 @@
     font-family: Onest;
 }
 
+.importantHomePageText {
+    color: #42738f;
+    font-weight: 900;
+}
+
 body, html {
     margin: 0;
     padding: 0;
