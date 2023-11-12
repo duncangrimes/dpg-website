@@ -9,8 +9,8 @@ export default function HomePage() {
                 Hello, and thanks for stopping by my website! <br/> <br/>
 
                 I am a junior at Vanderbilt University studying <br/>
-                <span style={{color: '#b52905'}}> Applied Mathematics </span>
-                and <span style={{color: '#b52905'}}>Computer Science</span>. <br/> <br/>
+                <span style={{color: '#b52905', fontWeight: 900}}> Applied Mathematics </span>
+                and <span style={{color: '#b52905', fontWeight: 900}}>Computer Science</span>. <br/> <br/>
 
                 This site is deployed with <span className={'importantHomePageText'}>Vercel</span> and <span className={'importantHomePageText'}>Next.js</span> using
                 components from <span className={'importantHomePageText'}>MaterialUI</span>, and its repository can be
